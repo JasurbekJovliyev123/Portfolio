@@ -5,7 +5,7 @@ import './home.css'
 const Home = () => {
   return (
     <section className="home-container grid">
-       <img src="./home.jpg" alt="" className='home-bg'/>
+       <img src="./bg.avif" alt="" className='home-bg'/>
        <div className="home-content">
          <h1 className="home-title">
           <span>I'm Jasurbek Jovliyev</span> <br /> Frontend Developer
