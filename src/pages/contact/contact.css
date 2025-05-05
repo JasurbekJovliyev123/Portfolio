@@ -1,0 +1,10 @@
+
+.contact-form{
+    position: relative;
+}
+.contact-message{
+    position: absolute;
+    right: 0.5rem;
+    bottom: 4.6rem;
+    font-size: var(--small-font-size);
+}

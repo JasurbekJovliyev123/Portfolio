@@ -1,0 +1,46 @@
+.home-container{
+  grid-template-columns: 4.75fr 7.25fr;
+  align-items: center;
+  gap: 2rem clamp(2rem, -22.6531rem + 32.6531vw, 10rem);;
+  padding: 2.5rem;
+  min-height: 100vh;
+}
+.home-bg{
+  height: 90vh;
+  border-radius: 2rem;
+  width: 100%;
+  z-index: 100;
+}
+.home-title{
+  font-size: var(--h2-font-size);
+  padding-left: 4.25rem;
+  position: relative;
+
+}
+.home-title span{
+  color: var(--first-color);
+}
+.home-title::before{
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 40px;
+  height: 4px;
+  border-radius: 0.5rem;
+  background-color: var(--first-color);
+}
+.home-description{
+  line-height: 1.75rem;
+  max-width: 600px;
+  margin-block: 1.5rem 2.5rem;
+}
+.color-black{
+  position: fixed;
+  transform: rotate(-16deg);
+  top: -12%;
+  left: -12%;
+  width: 30%;
+  height: 150%;
+  background-color: var(--first-color);
+}
