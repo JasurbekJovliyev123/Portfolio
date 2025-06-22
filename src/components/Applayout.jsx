@@ -4,7 +4,7 @@ import Themes from './themes/Themes'
 import { Outlet } from 'react-router'
 const Applayout = () => {
   return <>
-    <Navbar/>
+    
     <Outlet/>
     <Themes/>
   </>

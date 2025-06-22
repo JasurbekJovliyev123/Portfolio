@@ -17,18 +17,18 @@ const App = () => {
           index:true,
           element:<Home/>
         },
-        {
-          path:'/about',
-          element:<About/>
-        },
-        {
-          path:'/projects',
-          element:<Project/>
-        },
-        {
-          path:'/contact',
-          element:<Contact/>
-        }
+        // {
+        //   path:'/about',
+        //   element:<About/>
+        // },
+        // {
+        //   path:'/projects',
+        //   element:<Project/>
+        // },
+        // {
+        //   path:'/contact',
+        //   element:<Contact/>
+        // }
       ]
     }
   ])

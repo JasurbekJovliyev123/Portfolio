@@ -11,19 +11,19 @@ export const links = [
   {
     name: 'About',
     icon: <FaUser className='nav-icon' />,
-    path: '/about',
+    path: '#about',
   },
 
   {
     name: 'Portfolio',
     icon: <FaFolderOpen className='nav-icon' />,
-    path: '/projects',
+    path: '#projects',
   },
 
   {
     name: 'Contact',
     icon: <FaEnvelopeOpen className='nav-icon' />,
-    path: '/contact',
+    path: '#contact',
   },
 ];
 

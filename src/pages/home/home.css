@@ -5,12 +5,15 @@
   padding: 2.5rem;
   min-height: 100vh;
 }
+
 .home-bg{
-  height: 90vh;
+  height: 70vh;
   border-radius: 2rem;
   width: 100%;
   z-index: 100;
+  width: 1300px;
 }
+
 .home-title{
   font-size: var(--h2-font-size);
   padding-left: 4.25rem;
@@ -41,6 +44,6 @@
   top: -12%;
   left: -12%;
   width: 30%;
-  height: 150%;
+  height: 0vh;
   background-color: var(--first-color);
 }
