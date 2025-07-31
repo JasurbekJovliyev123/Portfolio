@@ -12,8 +12,13 @@
   width: 100%;
   z-index: 100;
   width: 1300px;
+  margin-left: 20px;
 }
-
+@media (max-width:600px) {
+  .home-bg{
+    margin-left: 0;
+  }
+}
 .home-title{
   font-size: var(--h2-font-size);
   padding-left: 4.25rem;

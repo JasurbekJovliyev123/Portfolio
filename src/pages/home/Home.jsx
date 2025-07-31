@@ -36,7 +36,7 @@ const Home = () => {
     <section id='projects'>
         <Project1/>
     </section>
-    <section className='contact'>
+    <section id='contact'>
       <Contact1/>
     </section>
     
