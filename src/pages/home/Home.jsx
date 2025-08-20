@@ -7,12 +7,14 @@ import Contact1 from '../contact/Contact1';
 import Project1 from '../projects/Project1';
 import Navbar1 from '../../components/navbar/Navbar1';
 import Contact2 from '../contact/Contact2';
+import you from '../../assets/image.png'
 const Home = () => {
   return (
     <div>
       <Navbar1/>
         <section className="home-container grid">
-       <img src="./bg.avif" alt="" className='home-bg'/>
+       {/* <img src={you} alt="" style={{marginLeft:'20'}} className='home-bg1'/> */}
+       <img src='./bg.avif' alt="" tyle={{marginLeft:'20'}} className='home-bg'/>
        <div className="home-content">
          <h1 className="home-title">
           <span>I'm Jasurbek Jovliyev</span> <br /> Frontend Developer
@@ -40,7 +42,7 @@ const Home = () => {
     <section id='contact'>
       <Contact1/>
     </section>
-      <Contact2/>
+      {/* <Contact2/> */}
     </div>
   )
 }

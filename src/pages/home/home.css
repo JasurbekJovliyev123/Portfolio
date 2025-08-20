@@ -14,6 +14,7 @@
   width: 1300px;
   margin-left: 20px;
 }
+
 @media (max-width:600px) {
   .home-bg{
     margin-left: 0;

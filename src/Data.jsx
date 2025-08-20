@@ -181,41 +181,39 @@ export const resume = [
 
 import projectImg1 from './assets/image1.png';
 import projectImg2 from './assets/image2.png';
-import projectImg3 from './assets/image.png';
-// import projectImg2 from './assets/project-2.jpg';
-// import projectImg3 from './assets/project-3.jpg';
-import projectImg4 from './assets/project-4.jpg';
-import projectImg5 from './assets/project-5.jpg';
+import projectImg3 from './assets/image3.png';
+import projectImg4 from './assets/image4.png';
+import projectImg5 from './assets/image5.png';
 
 export const portfolio = [
   {
     id: 1,
     img: projectImg1,
-    title: 'Coffee Website',
+    title: 'Logistics – Transport and Logistics Services',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'NOMEX Logistics offers fast, safe, and reliable freight transportation with efficient solutions for your business.',
     skills: [skillsImg4, skillsImg5],
-    link: '',
+    link: 'https://kz-logistika-git-main-jasurbeks-projects-33e05eeb.vercel.app/',
   },
 
   {
     id: 2,
     img: projectImg2,
-    title: 'Food Product Design',
+    title: 'Piknic Uzbekistan – Best Outdoor & Camping Gear',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'NOMEX Logistics offers fast, safe, and reliable freight transportation with efficient solutions for your business.',
     skills: [skillsImg6, skillsImg7],
-    link: '',
+    link: 'https://www.piknicuz.com/',
   },
 
   {
     id: 3,
     img: projectImg3,
-    title: 'Restaurant Landing Page',
+    title: 'WeatherApp – Live Weather Updates Anywhere',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'Check real-time temperature, wind, humidity, and forecasts for your city with WeatherApp.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '',
+    link: 'https://weather-app-tau-blond-29.vercel.app/',
   },
 
   {
