@@ -219,19 +219,19 @@ export const portfolio = [
   {
     id: 4,
     img: projectImg4,
-    title: 'Barbershop Website',
+    title: 'Kredo – Innovative P2P Financial Service',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'Kredo is a revolutionary platform offering secure P2P payments and profitable conditions for traders.',
     skills: [skillsImg4, skillsImg5],
-    link: '',
+    link: 'https://www.kredo.pw/',
   },
 
   {
     id: 5,
     img: projectImg5,
-    title: 'Construction Landing Page',
+    title: 'Online Dessert Shop – Fresh & Sweet Treats',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'Discover delicious desserts online – from waffles to macarons and tiramisu. Simple ordering with quick delivery.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: '',
   },

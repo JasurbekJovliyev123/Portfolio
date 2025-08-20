@@ -11,14 +11,30 @@
   border-radius: 2rem;
   width: 100%;
   z-index: 100;
-  width: 1300px;
+  width: 1200px;
   margin-left: 20px;
 }
-
+.home-bg1{
+  border-radius: 50%;
+  width: 100%;
+  z-index: 100;
+  margin: 0 auto;
+  height: 240px;
+  width: 220px;
+}
 @media (max-width:600px) {
   .home-bg{
     margin-left: 0;
+    display: none;
   }
+  
+}
+@media (min-width:600px) {
+  .home-bg1{
+    margin-left: 0;
+    display: none;
+  }
+  
 }
 .home-title{
   font-size: var(--h2-font-size);
