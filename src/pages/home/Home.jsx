@@ -6,6 +6,7 @@ import About from '../about/about1';
 import Contact1 from '../contact/Contact1';
 import Project1 from '../projects/Project1';
 import Navbar1 from '../../components/navbar/Navbar1';
+import Contact2 from '../contact/Contact2';
 const Home = () => {
   return (
     <div>
@@ -39,7 +40,7 @@ const Home = () => {
     <section id='contact'>
       <Contact1/>
     </section>
-    
+      <Contact2/>
     </div>
   )
 }

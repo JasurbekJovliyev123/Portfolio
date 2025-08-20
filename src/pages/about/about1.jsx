@@ -1,5 +1,5 @@
-import React from 'react'
-import Cv from '../../pdf/steve-cv.pdf'
+
+import CV from '../../pdf/JasurbekJovliyevResume (2).pdf'
 import Info from '../../components/info'
 import { MdOutlineFileDownload } from "react-icons/md";
 import Skills from '../../components/Skills';
@@ -20,7 +20,7 @@ const About = () => {
             <ul className="info-list">
                <Info/>
             </ul>
-            <a href={Cv} download='' className='button cv-button'>
+            <a href={CV} download='' className='button cv-button'>
               Download Cv
               <span className='button-icon'><MdOutlineFileDownload/></span>
             </a>

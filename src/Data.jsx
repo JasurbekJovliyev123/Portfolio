@@ -82,16 +82,17 @@ import skillsImg3 from './assets/javascript-logo.svg';
 import skillsImg4 from './assets/react-logo.svg';
 import skillsImg5 from './assets/tailwind-css-logo.svg';
 import skilltypescript from './assets/typescript.png'
-import skillsImg6 from './assets/figma-logo.svg';
+import skillsImg6 from './assets/firebase.png';
 import skillsImg7 from './assets/sketch-logo.svg';
 import skillsImg8 from './assets/111webp.webp';
+import nextjs from './assets/nextjs.jpeg'
 import { RiBriefcase4Fill, RiGraduationCapFill } from 'react-icons/ri';
 export const skill = [
   {
     id: 1,
     img: skillsImg1,
     title: 'HTML',
-    level: 'Intermediate',
+    // level: 'Intermediate',
     category: 'developer',
   },
 
@@ -99,28 +100,28 @@ export const skill = [
     id: 2,
     img: skillsImg2,
     title: 'CSS',
-    level: 'Advanced',
+    // level: 'Advanced',
     category: 'developer',
   },
   {
     id: 3,
     img: skillsImg5,
     title: 'Tailwind',
-    level: 'Intermediate',
+    // level: 'Intermediate',
     category: 'developer',
   },
   {
     id: 4,
     img: skillsImg6,
-    title: 'Figma',
-    level: 'Advanced',
+    title: 'Firebase',
+    // level: 'Advanced',
     category: 'designer',
   },
   {
     id: 5,
     img: skillsImg3,
     title: 'JavaScript',
-    level: 'Intermediate',
+    // level: 'Intermediate',
     category: 'developer',
   },
   
@@ -128,22 +129,22 @@ export const skill = [
     id: 6,
     img: skilltypescript,
     title: 'Typescript',
-    level: 'Basic',
+    // level: 'Basic',
     category: 'developer',
   },
   {
     id: 7,
     img: skillsImg4,
     title: 'React',
-    level: 'Basic',
+    // level: 'Basic',
     category: 'developer',
   },
 
    {
     id: 8,
-    img: skillsImg8,
+    img: nextjs,
     title: 'NextJS',
-    level: 'Basic',
+    // level: 'Basic',
     category: 'developer',
   },
 ];
@@ -178,9 +179,11 @@ export const resume = [
   },
 ];
 
-import projectImg1 from './assets/project-1.jpg';
-import projectImg2 from './assets/project-2.jpg';
-import projectImg3 from './assets/project-3.jpg';
+import projectImg1 from './assets/image1.png';
+import projectImg2 from './assets/image2.png';
+import projectImg3 from './assets/image.png';
+// import projectImg2 from './assets/project-2.jpg';
+// import projectImg3 from './assets/project-3.jpg';
 import projectImg4 from './assets/project-4.jpg';
 import projectImg5 from './assets/project-5.jpg';
 

@@ -9,9 +9,7 @@ function Skills({data}) {
         <h3 className="skills-name">
           {data.title}
         </h3>
-        <h3 className="skills-level">
-          {data.level}
-        </h3>
+        
       
     </div>
   )

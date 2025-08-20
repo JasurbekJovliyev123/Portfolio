@@ -18,6 +18,7 @@
 
 .portfolio-img {
   transition: transform 0.3s ease;
+  height: 200px;
 }
 
 .portfolio-card:hover .portfolio-img {
