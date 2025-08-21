@@ -21,9 +21,9 @@
   height: 200px;
 }
 
-.portfolio-card:hover .portfolio-img {
+/* .portfolio-card:hover .portfolio-img {
   transform: scale(1.2);
-}
+} */
 
 .portfolio-title {
   font-size: var(--large-font-size);
@@ -61,7 +61,7 @@
 .link-icon{
   font-size: 1.25rem;
 }
-/* Contact Section */
+
 .contact-container {
   display: grid;
   grid-template-columns: 5fr 7fr;

@@ -40,7 +40,7 @@ export const personalInfo = [
 
   {
     title: 'Age : ',
-    description: '20 Years',
+    description: '21 Years',
   },
 
   {
