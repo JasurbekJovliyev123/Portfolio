@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { RiUser3Line,RiMailUnreadLine,RiMap2Line,RiBook2Line,RiSendPlaneLine } from "react-icons/ri";
 import './contact.css'
 import emailjs from '@emailjs/browser';
-
+import { Toaster, toast } from 'sonner'
 const Contact1 = () => {
 
   const [formData, setFormData] = useState({
@@ -43,6 +43,7 @@ const Contact1 = () => {
             subject: '',
             message: ''
           });
+          toast.success('add')
         },
         (error) => {
           alert('OOPs! SOMETHING WENT WRONG...', error);
@@ -96,7 +97,7 @@ const Contact1 = () => {
             </div>
           </div>
         </div>
-
+         <Toaster richColors position="top-right" />
         <form onSubmit={sendEmail} className="contact-form container grid">
           <div className="contact-form-group grid">
             <div className="contact-form-div">

@@ -84,7 +84,6 @@ import skillsImg5 from './assets/tailwind-css-logo.svg';
 import skilltypescript from './assets/typescript.png'
 import skillsImg6 from './assets/firebase.png';
 import skillsImg7 from './assets/sketch-logo.svg';
-import skillsImg8 from './assets/111webp.webp';
 import nextjs from './assets/nextjs.jpeg'
 import { RiBriefcase4Fill, RiGraduationCapFill } from 'react-icons/ri';
 export const skill = [
@@ -233,7 +232,7 @@ export const portfolio = [
     description:
       'Discover delicious desserts online – from waffles to macarons and tiramisu. Simple ordering with quick delivery.',
     skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: '',
+    link: 'https://gorgeous-kangaroo-a6b7e0.netlify.app/',
   },
 ];
 

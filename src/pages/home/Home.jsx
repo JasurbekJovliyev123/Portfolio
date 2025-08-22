@@ -1,10 +1,10 @@
 
 import { RiArrowRightLine } from "react-icons/ri";
 import './home.css'
-import About from '../about/about1';
-import Contact1 from '../contact/Contact1';
-import Project1 from '../projects/Project1';
-import Navbar1 from '../../components/navbar/Navbar1';
+import About from '../about/about';
+import Contact1 from '../contact/Contact';
+import Project1 from '../projects/Project';
+import Navbar1 from '../../components/navbar/Navbar';
 import you from '../../assets/image.png'
 const Home = () => {
   return (

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router'
 import { IoClose } from "react-icons/io5";
 import { RiMenuLine } from "react-icons/ri";
 import './navbar.css'
-const Navbar1 = () => {
+const Navbar = () => {
   const [showMenu,setShowMenu]=useState(true)
   return (
     <nav className="nav">
@@ -32,4 +32,4 @@ const Navbar1 = () => {
   )
 }
 
-export default Navbar1
+export default Navbar
