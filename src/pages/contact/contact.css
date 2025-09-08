@@ -8,3 +8,6 @@
     bottom: 4.6rem;
     font-size: var(--small-font-size);
 }
+.contact-container{
+    display: flex;
+}

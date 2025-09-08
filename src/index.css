@@ -83,7 +83,7 @@ html{
   display: grid;
   place-items: center;
 }
-/*=============== BASE ===============*/
+
   *{
     margin: 0;
     padding: 0;
@@ -149,11 +149,7 @@ html{
   --border-color:hsl(var(--hue),4%,16%);
 }
 
-/*=============== LAYOUT ===============*/
 
-
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
 @media screen and (max-width: 1400px) {
   .container{
     max-width: 1008px;
@@ -257,7 +253,7 @@ html{
     }
 }
 
-/* For medium devices */
+
 @media (max-width: 1024px) {
   .home-container{
     grid-template-columns: 1fr;
@@ -392,7 +388,6 @@ html{
 }
 }
 
-/* For small devices */
 @media screen and (max-width: 540px) {
   .home-container,.container{
     padding-inline: 0.75rem;

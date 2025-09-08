@@ -6,11 +6,11 @@
 .portfolio-card {
   background-color: var(--container-color);
   padding: 1.5rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 
 .portfolio-img-wrapper {
-  border-radius: 1.25rem;
+  border-radius: .25rem;
   overflow: hidden;
   display: block;
 }
@@ -18,7 +18,7 @@
 
 .portfolio-img {
   transition: transform 0.3s ease;
-  height: 200px;
+  height: 230px;
 }
 
 /* .portfolio-card:hover .portfolio-img {

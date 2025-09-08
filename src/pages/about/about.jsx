@@ -1,5 +1,5 @@
 
-import CV from '../../pdf/JasurbekJovliyevResume (2).pdf'
+import CV from '../../pdf/JasurbekJovliyev.pdf'
 import Info from '../../components/info'
 import { MdOutlineFileDownload } from "react-icons/md";
 import Skills from '../../components/Skills';

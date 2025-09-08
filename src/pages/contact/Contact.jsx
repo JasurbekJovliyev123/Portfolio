@@ -4,7 +4,6 @@ import './contact.css'
 import emailjs from '@emailjs/browser';
 import { Toaster, toast } from 'sonner'
 const Contact1 = () => {
-
   const [formData, setFormData] = useState({
     name: "",
     email: '',

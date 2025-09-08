@@ -13,6 +13,11 @@
   text-align: center;
   margin-top: -1rem;
 }
+.about-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .info-list{
   display: grid;
   row-gap: 1.25rem;
@@ -144,7 +149,7 @@
   font-size: var(--small-font-size);
 }
 .cv-button{
-  margin: 0 auto;
+  margin: 0 auto; 
   display: flex;
   justify-content: center;
 }
