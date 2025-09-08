@@ -13,8 +13,8 @@ const Navbar = () => {
           {links.map(({name,icon,path},index)=>{
               return (
                 <li className="nav-item" key={index}>
-                    <a href={path} onClick={()=>setShowMenu(!showMenu)} className={({isActive})=>isActive ? 'nav-link active-nav':'nav-link'}>
-                      {icon}
+                    <a href={path} style={{display:'flex',alignItems:'center',gap:"3px"}} onClick={()=>setShowMenu(!showMenu)} className={({isActive})=>isActive ? 'nav-link active-nav':'nav-link'}>
+                      <p>{icon}</p>
                       <h3 className="nav-name">
                         {name}
                       </h3>

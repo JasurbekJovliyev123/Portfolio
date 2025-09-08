@@ -84,6 +84,7 @@ import skillsImg5 from './assets/tailwind-css-logo.svg';
 import skilltypescript from './assets/typescript.png'
 import skillsImg6 from './assets/firebase.png';
 import skillsImg7 from './assets/sketch-logo.svg';
+import reduxPhoto from './assets/redux.svg'
 import nextjs from './assets/nextjs.jpeg'
 import { RiBriefcase4Fill, RiGraduationCapFill } from 'react-icons/ri';
 export const skill = [
@@ -91,7 +92,6 @@ export const skill = [
     id: 1,
     img: skillsImg1,
     title: 'HTML',
-    // level: 'Intermediate',
     category: 'developer',
   },
 
@@ -99,14 +99,12 @@ export const skill = [
     id: 2,
     img: skillsImg2,
     title: 'CSS',
-    // level: 'Advanced',
     category: 'developer',
   },
   {
     id: 3,
     img: skillsImg5,
     title: 'Tailwind',
-    // level: 'Intermediate',
     category: 'developer',
   },
   {
@@ -201,7 +199,7 @@ export const portfolio = [
     title: 'Piknic Uzbekistan – Best Outdoor & Camping Gear',
     description:
       'NOMEX Logistics offers fast, safe, and reliable freight transportation with efficient solutions for your business.',
-    skills: [skillsImg6, skillsImg7],
+    skills: [skillsImg4, skillsImg5,reduxPhoto],
     link: 'https://www.piknicuz.com/',
   },
 
@@ -211,7 +209,7 @@ export const portfolio = [
     title: 'WeatherApp – Live Weather Updates Anywhere',
     description:
       'Check real-time temperature, wind, humidity, and forecasts for your city with WeatherApp.',
-    skills: [skillsImg1, skillsImg2, skillsImg3],
+    skills: [skillsImg4, skillsImg5],
     link: 'https://weather-app-tau-blond-29.vercel.app/',
   },
 
@@ -231,7 +229,7 @@ export const portfolio = [
     title: 'Online Dessert Shop – Fresh & Sweet Treats',
     description:
       'Discover delicious desserts online – from waffles to macarons and tiramisu. Simple ordering with quick delivery.',
-    skills: [skillsImg1, skillsImg2, skillsImg3],
+    skills: [skillsImg4, skillsImg5],
     link: 'https://gorgeous-kangaroo-a6b7e0.netlify.app/',
   },
 ];

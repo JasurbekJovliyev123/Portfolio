@@ -118,7 +118,7 @@ html{
   display: block;
   max-width: 100%;
  }
-/*=============== REUSABLE CSS CLASSES ===============*/
+
 .grid{
   display: grid;
 }
@@ -323,12 +323,12 @@ html{
     gap: 1.5rem;
     justify-content: center;
   }
-  .contact-container{
+  /* .contact-container{
     padding-top: 0;
     grid-template-columns: 1fr;
     justify-content: center;
     width: 100%;
-  }
+  } */
   .contact-form-group{
     grid-template-columns: 1fr;
     width: 90%;
@@ -433,5 +433,16 @@ html{
 
 
 
+.contact-container{
+  display: flex;
+}
 
+@media (max-width:900px) {
+  .contact-container{
+    display: block;
+  }
+  .contact-form{
+    margin-top:30px;
+  }
+}
 
