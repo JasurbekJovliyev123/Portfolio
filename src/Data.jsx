@@ -30,37 +30,37 @@ export const links = [
 export const personalInfo = [
   {
     title: 'Ism: ',
-    description: 'Jasurbek',
+    description: ' Jasurbek',
   },
 
   {
     title: 'Familiya: ',
-    description: 'Jovliyev',
+    description: ' Jovliyev',
   },
 
   {
     title: 'Yosh: ',
-    description: '21 Years',
+    description: ' 21 yosh',
   },
 
   {
     title: 'Millat : ',
-    description: 'Uzbek',
+    description: ' Uzbek',
   },
 
   {
      title: "Frilans faoliyati:",
-      description: "Mavjud",
+      description: " Mavjud",
   },
 
   {
     title: 'Manzil: ',
-    description: 'Qarshi',
+    description: ' Qarshi',
   },
 
   {
     title: 'Telefon : ',
-    description: '+998943343504',
+    description: ' +998943343504',
   },
 
  
@@ -68,11 +68,11 @@ export const personalInfo = [
 
   {
     title: 'tillar : ',
-    description: 'Uzbek',
+    description: ' Uzbek',
   },
   {
     title: 'Email : ',
-    description: 'jasurbekjovliyev725@gmail.com',
+    description: ' jasurbekjovliyev725@gmail.com',
   },
 ];
 
