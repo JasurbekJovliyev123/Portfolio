@@ -29,37 +29,37 @@ export const links = [
 
 export const personalInfo = [
   {
-    title: 'First Name : ',
+    title: 'Ism: ',
     description: 'Jasurbek',
   },
 
   {
-    title: 'Last Name : ',
+    title: 'Familiya: ',
     description: 'Jovliyev',
   },
 
   {
-    title: 'Age : ',
+    title: 'Yosh: ',
     description: '21 Years',
   },
 
   {
-    title: 'Nationality : ',
+    title: 'Millat : ',
     description: 'Uzbek',
   },
 
   {
-    title: 'Freelance : ',
-    description: 'Available',
+     title: "Frilans faoliyati:",
+      description: "Mavjud",
   },
 
   {
-    title: 'Address : ',
-    description: 'Karshi',
+    title: 'Manzil: ',
+    description: 'Qarshi',
   },
 
   {
-    title: 'Phone : ',
+    title: 'Telefon : ',
     description: '+998943343504',
   },
 
@@ -67,7 +67,7 @@ export const personalInfo = [
 
 
   {
-    title: 'Langages : ',
+    title: 'tillar : ',
     description: 'Uzbek',
   },
   {
@@ -83,7 +83,9 @@ import skillsImg4 from './assets/react-logo.svg';
 import skillsImg5 from './assets/tailwind-css-logo.svg';
 import skilltypescript from './assets/typescript.png'
 import skillsImg6 from './assets/firebase.png';
-import skillsImg7 from './assets/sketch-logo.svg';
+import word from './assets/word.svg'
+import excel from './assets/excel.png'
+import point from './assets/point.jfif'
 import reduxPhoto from './assets/redux.svg'
 import nextjs from './assets/nextjs.jpeg'
 import { RiBriefcase4Fill, RiGraduationCapFill } from 'react-icons/ri';
@@ -144,6 +146,24 @@ export const skill = [
     // level: 'Basic',
     category: 'developer',
   },
+  {
+    id: 9,
+    img: word,
+    title: 'Word',
+    category: 'developer',
+  },
+  {
+    id: 10,
+    img: excel,
+    title: 'Excel',
+    category: 'developer',
+  },
+  {
+    id: 9,
+    img: point,
+    title: 'Power Point',
+    category: 'developer',
+  },
 ];
 
 export const resume = [
@@ -153,8 +173,8 @@ export const resume = [
     category: 'education',
     icon: <RiGraduationCapFill />,
     year: '2020-2022',
-    title: '<span>Technical Studies</span> — QMII Academic Lyceum',
-    desc: 'Specialized in Mathematics and Physics. Focused on analytical thinking, problem-solving, and engineering fundamentals.',
+    title: '<span>Texnik ta’lim</span> — QMII Akademik litseyi',
+    desc: 'Matematika va fizika bo‘yicha ixtisoslashgan. Analitik fikrlash, muammolarni hal qilish va muhandislik asoslariga e’tibor qaratgan.',
   },
 
   {
@@ -162,8 +182,8 @@ export const resume = [
     category: 'education',
     icon: <RiGraduationCapFill />,
     year: '2022',
-    title: "<span> Bachelor's Degree </span> Qarshi State University",
-    desc: "Admitted in 2022 on a government scholarship. Currently pursuing a Bachelor's degree in Applied Mathematics.",
+    title: "<span>Bakalavriat</span> Qarshi Davlat Universiteti",
+    desc: "2022-yilda davlat granti asosida qabul qilingan. Hozirda Amaliy matematika yo‘nalishi bo‘yicha bakalavriat bosqichida tahsil olmoqda.",
   },
 
   {
@@ -171,10 +191,11 @@ export const resume = [
     category: 'education',
     icon: <RiGraduationCapFill />,
     year: '2024',
-    title: ' <span>Frontend Development Course</span>  Sammi.ac Praktikum',
-    desc: "Since 2023, I have been studying frontend development, focusing on modern web technologies.In 2024, I joined the Sammi.ac Praktikum program, where I gained hands-on experience in JavaScript, TypeScript, React.js, and Next.js.",
+    title: '<span>Frontend dasturlash kursi</span> — Sammi.ac Praktikum',
+    desc: "2023-yildan beri frontend dasturlashni o‘rganib kelmoqda. 2024-yilda Sammi.ac Praktikum dasturiga qo‘shilib, JavaScript, TypeScript, React.js va Next.js bo‘yicha amaliy tajriba orttirganman.",
   },
 ];
+
 
 import projectImg1 from './assets/image1.png';
 import projectImg2 from './assets/image2.png';
@@ -186,9 +207,9 @@ export const portfolio = [
   {
     id: 1,
     img: projectImg1,
-    title: 'Logistics – Transport and Logistics Services',
+    title: 'Logistika – Transport va logistika xizmatlari',
     description:
-      'NOMEX Logistics offers fast, safe, and reliable freight transportation with efficient solutions for your business.',
+      'NOMEX Logistics sizning biznesingiz uchun tezkor, xavfsiz va ishonchli yuk tashish xizmatlarini taklif etadi.',
     skills: [skillsImg4, skillsImg5],
     link: 'https://kz-logistika-git-main-jasurbeks-projects-33e05eeb.vercel.app/',
   },
@@ -196,19 +217,19 @@ export const portfolio = [
   {
     id: 2,
     img: projectImg2,
-    title: 'Piknic Uzbekistan – Best Outdoor & Camping Gear',
+    title: 'Piknic Uzbekistan – Eng yaxshi tashqi va camping jihozlari',
     description:
-      'NOMEX Logistics offers fast, safe, and reliable freight transportation with efficient solutions for your business.',
-    skills: [skillsImg4, skillsImg5,reduxPhoto],
+      'Piknic Uzbekistan ochiq havoda dam olish va camping uchun sifatli va ishonchli mahsulotlarni taqdim etadi.',
+    skills: [skillsImg4, skillsImg5, reduxPhoto],
     link: 'https://www.piknicuz.com/',
   },
 
   {
     id: 3,
     img: projectImg3,
-    title: 'WeatherApp – Live Weather Updates Anywhere',
+    title: 'Ob-havo ilovasi – Jonli ob-havo yangiliklari',
     description:
-      'Check real-time temperature, wind, humidity, and forecasts for your city with WeatherApp.',
+      'Shahringizdagi real vaqt harorati, shamol tezligi, namlik va prognozlarni WeatherApp orqali kuzating.',
     skills: [skillsImg4, skillsImg5],
     link: 'https://weather-app-tau-blond-29.vercel.app/',
   },
@@ -216,9 +237,9 @@ export const portfolio = [
   {
     id: 4,
     img: projectImg4,
-    title: 'Kredo – Innovative P2P Financial Service',
+    title: 'Kredo – Innovatsion P2P moliyaviy xizmat',
     description:
-      'Kredo is a revolutionary platform offering secure P2P payments and profitable conditions for traders.',
+      'Kredo xavfsiz P2P to‘lovlari va treyderlar uchun foydali shart-sharoitlarni taqdim etuvchi zamonaviy platforma.',
     skills: [skillsImg4, skillsImg5],
     link: 'https://www.kredo.pw/',
   },
@@ -226,13 +247,14 @@ export const portfolio = [
   {
     id: 5,
     img: projectImg5,
-    title: 'Online Dessert Shop – Fresh & Sweet Treats',
+    title: 'Onlayn desert do‘koni – Yangi va shirin taomlar',
     description:
-      'Discover delicious desserts online – from waffles to macarons and tiramisu. Simple ordering with quick delivery.',
+      'Mazali desertlarni kashf eting- qulay buyurtma va tezkor yetkazib berish.',
     skills: [skillsImg4, skillsImg5],
     link: 'https://gorgeous-kangaroo-a6b7e0.netlify.app/',
   },
 ];
+
 
 
 import Theme1 from './assets/red.png';

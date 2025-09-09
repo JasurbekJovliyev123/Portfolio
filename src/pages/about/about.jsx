@@ -12,16 +12,16 @@ const About = () => {
     <main className="section container">
       <section className="about">
         <h2 className="section-title">
-          About <span>Me</span>
+          <span>Men</span> haqimda
         </h2>
         <div className="about-container">
           <div className="about-info">
-            <h1 className="section-subtitle">Personal Infos</h1>
+            <h1 className="section-subtitle">Shaxsiy ma’lumotlar</h1>
             <ul className="info-list">
                <Info/>
             </ul>
             <a href={CV} download='' className='button cv-button'>
-              Download Cv
+              Rezyume yuklab olish
               <span className='button-icon'><MdOutlineFileDownload/></span>
             </a>
           </div>
@@ -32,7 +32,7 @@ const About = () => {
       </div>
       <section className="skills">
         <h3 className="section-subtitle subtitle-center">
-            My Skills
+            Mening ko‘nikmalarim
         </h3>
         <div className="skills-container ">
           <div className="skills-group">
@@ -52,7 +52,7 @@ const About = () => {
       </div>
       <section className="resume">
         <h3 className="section-subtitle subtitle-center">
-           Education
+           Ta’lim
         </h3>
         <div className="resume-container grid">
                 <div className="education-group grid">

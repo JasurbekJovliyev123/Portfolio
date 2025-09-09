@@ -2,25 +2,25 @@
 import { RiArrowRightLine } from "react-icons/ri";
 import './home.css'
 import About from '../about/about';
-import Contact1 from '../contact/Contact';
-import Project1 from '../projects/Project';
-import Navbar1 from '../../components/navbar/Navbar';
+import Contact from '../contact/Contact';
+import Project from '../projects/Project';
+import Navbar from '../../components/navbar/Navbar';
 import you from '../../assets/image.png'
 const Home = () => {
   return (
     <div>
-      <Navbar1/>
+      <Navbar/>
         <section className="home-container grid">
        <img src={you} alt="" style={{marginLeft:'20'}} className='home-bg1'/>
        <img src='./bg.avif' alt="" style={{marginLeft:'20'}} className='home-bg'/>
        <div className="home-content">
          <h1 className="home-title">
-          <span>I'm Jasurbek Jovliyev</span> <br /> Frontend Developer
+          <span>Men Jasurbek Jovliyevman</span> <br /> Frontend dasturchi
          </h1>
          <p className="home-description">
-              I am an Uzbekistan-based frontend developer passionate about creating modern and user-friendly web applications. I focus on building clean, responsive, and efficient websites that enhance user experience.
+              Men frontend dasturchiman. Zamonaviy, qulay va samarali veb-ilovalar yaratish bilan birga, frontend bo‘yicha o‘rgatish va tajriba ulashishga ham qiziqaman. Foydalanuvchi uchun oddiy, responsiv va estetik dizaynli saytlar ishlab chiqishga intilaman.
          </p>
-         <a href='#about' className='button'> More About Me
+         <a href='#about' className='button'>Men haqimda batafsil
          <span className="button-icon">
             <RiArrowRightLine/>
          </span>
@@ -35,10 +35,10 @@ const Home = () => {
         <About/>
     </section>
     <section id='projects'>
-        <Project1/>
+        <Project/>
     </section>
     <section id='contact'>
-      <Contact1/>
+      <Contact/>
     </section>
    
     </div>

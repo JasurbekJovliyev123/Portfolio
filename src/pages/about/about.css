@@ -77,7 +77,8 @@
   text-align: center;
 }
 .skills-img{
-  width: 40px;
+  width: 50px;
+  border-radius: 6px;
 }
 .skills-title{
   text-align: center;
