@@ -15,7 +15,7 @@ const Home = () => {
        <img src='./bg.avif' alt="" style={{marginLeft:'20'}} className='home-bg'/>
        <div className="home-content">
          <h1 className="home-title">
-          <span>Men Jasurbek Jovliyevman</span> <br /> Frontend dasturchi
+          <span>Men Jasurbek Jovliyev</span> <br /> Frontend dasturchiman
          </h1>
          <p className="home-description">
               Men frontend dasturchiman. Zamonaviy, qulay va samarali veb-ilovalar yaratish bilan birga, frontend bo‘yicha o‘rgatish va tajriba ulashishga ham qiziqaman. Foydalanuvchi uchun oddiy, responsiv va estetik dizaynli saytlar ishlab chiqishga intilaman.
@@ -44,5 +44,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home
